@@ -43,7 +43,7 @@ def sendWelcome(client,msg):
     welcomeText = f"""Hello {user.mention}This is youtube audio, video and thumbnail downloader bot. Send the url."""
     msg.reply_text(text=welcomeText,reply_markup=markup,parse_mode=ParseMode.HTML,quote=True)
 
-
+""" #The db is not completted
 @bot.on_message(filters.command("broadcast") & filters.private)
 def broadcast(client,msg):
     user = msg.from_user
@@ -57,7 +57,7 @@ def broadcast(client,msg):
     if msg.from_user.id not in admin_id:
         bot.reply_to(msg,"This command is for admins only!")
     else:
-        bot.reply_to(msg,"Send me a broadcasting message:")
+        bot.reply_to(msg,"Send me a broadcasting message:") """
 
 @bot.on_message(filters.text & filters.private)
 def audioOrVideo(client,msg):
@@ -167,5 +167,6 @@ def downloadAudioVideo(client,query):
 
 print("bot is running")
 bot.run()
+
 
 
