@@ -25,9 +25,9 @@ _default_clients["ANDROID_MUSIC"] = _default_clients["ANDROID_CREATOR"]
 # admin ID's
 admin_id = [1944279581,2069970688,1365625365,1433116770,5249435830]
 
-BotTokn = "6934289676:AAE0COsWQoMTj4TR6hZGbVvhAZqDlUVZvjw"
+BotTokn = "<Your Bot Api>"
 apiID = 14934789
-apiHash = "082422155fb8ef27dd7cd6ce6fdbaae7"
+apiHash = "Your Api-Hash"
 
 bot = Client(name="flippedCoin",api_id=apiID,api_hash=apiHash,bot_token=BotTokn)
 
@@ -167,4 +167,5 @@ def downloadAudioVideo(client,query):
 
 print("bot is running")
 bot.run()
+
 
