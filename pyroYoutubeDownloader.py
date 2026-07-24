@@ -26,7 +26,7 @@ _default_clients["ANDROID_MUSIC"] = _default_clients["ANDROID_CREATOR"]
 admin_id = [1944279581,2069970688,1365625365,1433116770,5249435830]
 
 BotTokn = "<Your Bot Api>"
-apiID = 14934789
+apiID = #APP_ID
 apiHash = "Your Api-Hash"
 
 bot = Client(name="flippedCoin",api_id=apiID,api_hash=apiHash,bot_token=BotTokn)
