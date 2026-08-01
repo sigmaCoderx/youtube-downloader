@@ -23,7 +23,8 @@ from pytube.innertube import _default_clients
 _default_clients["ANDROID_MUSIC"] = _default_clients["ANDROID_CREATOR"]
 
 # admin ID's
-admin_id = [1944279581,2069970688,1365625365,1433116770,5249435830]
+# to use the admin specific command,you must add ids in the list 
+admin_id = []
 
 BotTokn = "<Your Bot Api>"
 apiID = #APP_ID
